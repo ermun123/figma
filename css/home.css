@@ -267,19 +267,77 @@ margin-top: 41px;
     display:flex;   
 }
 .leftside{
-    background: salmon;
 
-    flex:1;
 }
 .abouttext{
     width: 600px;
     height: 550px;
     background: white;
-    margin-left: 320px;
+    margin-left: 480px;
     margin-top: 126px;
 }
-.rightside{
-    background: teal;
-
-    flex:1;
+.abouttext h1{
+    width: 596px;
+    height: 157px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
 }
+.abouttext p{
+    width: 510px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color:#5B5B5B;
+    margin-top: 32px;
+}
+.aboutfeature{
+    display:flex;
+    width: 500px;
+    margin-top: 48px;
+ 
+}
+.awards{
+    height: 300px;
+    width: 270px;
+    
+}
+
+.awards p{
+    width: 264px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.clients p{
+    width: 264px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.too{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #F58A07;
+}
+
+.orangelayer{
+    width: 153px;
+    background: #F58A07;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
+}
+.womenpic{
+    background-image: url(/images/about-image.png);
+    width: 650px;
+    height: 650px;
+    background-size:cover;
+    border-radius: 20px;
+    display:flex;
+    margin-top: 96px;
+    margin-left: 60px;
