@@ -15,6 +15,7 @@
     height:fit-content;
     margin:auto;
 }
+
 nav:first-child{
     padding: 0px;
     margin: auto;
@@ -28,10 +29,12 @@ nav:first-child{
 .navlogo{
     justify-content: start;
     text-align: center;
+    margin-top: 10px;
 }
 .navlist{
     display:flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 nav ul{
     list-style: none;
@@ -55,129 +58,85 @@ nav p{
     padding: 18px 30px;
 }
 header{
-    display:flex;
+    background-color:#DCEAF5;
+    height: 749px;
+    margin-top: 16px;
+}
+.head{
+    display: flex;
+}
+.headertext{
+    width: 559px;
+    height: 427px;
+    margin-top: 161px;
+}
+.headtoptext{
+    display: flex;
+}
+.publisher{
+    width: 123px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+    opacity: 0.87;
+    margin-left: 8px;
+}
+.publisher2{
+    width: 300px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+    opacity: 0.87;
+    margin-left: 24px;
 }
 .headertext h1{
-    width: 618px;
-    height: 288px;
-    font-family: 'Poppins';
+    width: 527px;
+    height: 216px;
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 72px;
     letter-spacing: -0.03em;
     color: #1D3444;
-    margin-top: 262px;
-    flex:1;
+    margin-top: 10px;
+
 }
-.headerp{
-    width: 557px;
+.headertext h4{
+    width: 559px;
     height: 90px;
+    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    color: #5B5B5B; 
-    margin-top: 24px;
-
+    color: #5B5B5B;
+    margin-top: 10px;
 }
-.headerimage{
-    flex: 1;
+.readmore{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    margin-top: 24px;
 }
 .headerimage img{
-    width: 616px;
-    height: 650px;
     border-radius: 20px;
-    flex: 1;
-    margin-top: 183px;
-}
-.view{
-    width: 180px;
-    height: 54px;
-    background: #F58A07;
-    border-radius: 27px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 42px;
-}
-.oranged{
-    width: 180px;
-    height: 650px;
-    background: #F58A07;
-    mix-blend-mode: multiply;
-    border-radius:20px 0px 0px 20px;
-    position: absolute;
-    margin-top: -650px;
-
-}
-.careers-section{
-    margin-top: 127px;
-}
-.careertext h1{
-    width: 676px;
-    height: 56px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.03em;
-    color: #0D1317;
-}
-.careertext p{
-    width: 557px;
-    height: 90px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-}
-.career1-3{
-    display: flex;
-
-    margin-top: 64px;   
-}
-.career{
-    width: 400px;
-    height: 181px;
-    border-radius:20px;
-    background: rgba(193, 228, 255, 0.3);
-    justify-content: space-around;
-}
-.career2{
-    margin-left: 40px;
-}
-.career3{
-    margin-left: 40px;
-}
-.career h1{
-    margin-top: 32px;
-    margin-left: 40px;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.03em;
-    color: #0D1317;
-}
-.Bengaluru{
-    margin-top: 8px;
-    margin-left: 40px;
-}
-.apply{
-    margin-top: 32px;
-    margin-left: 40px;
-    color:#F58A07;
-}
-.career4-5{
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 128px;
+    margin-top: 128px;
+    margin-left: 100px;
 }
 .latestsection{
-    background: #DCEAF5;
-    height: 819px;
+    width: 1280px;
+    height: 1174px;
 }
-.latestblog{
+.latestsection h1{
     width: 453px;
+    height: 56px;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -185,36 +144,33 @@ header{
     letter-spacing: -0.03em;
     text-transform: capitalize;
     color: #0D1317;
-    padding-top: 96px;
-
+    margin-top: 128px;
 }
-.blogs{
+.blogitem1-3{
     display: flex;
-    margin-top: 64px;
     justify-content: space-between;
-  
+    margin-top: 64px;
 }
 .blog{
     width: 400px;
     height: 507px;
-    background-color: white;
+    background: #EDF7FF;
     border-radius: 20px;
 }
 .blog img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 .blog h3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
     width: 336px;
     height: 72px;
-    margin-top: 32px;
-    margin-left: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
     letter-spacing: -0.03em;
     color: #0D1317;
+    margin-top: 32px;
+    margin-left: 32px;
 }
 .blogtext{
     width: 336px;
@@ -224,20 +180,26 @@ header{
     font-size: 16px;
     line-height: 28px;
     color: #5B5B5B;
-    margin-top: 16px;
     margin-left: 32px;
+    margin-top: 12px;
 }
 .bloglearnmore{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 106.5%;
-    margin-top: 24px;
-    margin-left: 32px;
     color: #F58A07;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+.blogitem4-6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 footer{
     background-color:#063255 ;
+    margin-top: 128px;
 
 }
 .footer-top{
@@ -345,7 +307,7 @@ button{
     height: 144px;
     background-color: #F58A07;
     position: absolute;
-    top: 2900px;
+    top: 2668px;
     left: 1px;
     border-top-right-radius: 20px;
 }
@@ -354,7 +316,7 @@ button{
     height: 287px;
     position: absolute;
     left: 2325.5px;
-    top: 2550px;
+    top: 2300px;
     background-color: #F58A07;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
