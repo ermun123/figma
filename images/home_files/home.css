@@ -10,10 +10,6 @@
     font-family:Poppins;
     src: url(/Poppins-Font-2/Poppins-Regular.ttf);
 }
-.maxwidth{
-    max-width: 1280px;
-    margin: auto;
-}
 
 nav{
     display: flex;
@@ -44,83 +40,87 @@ nav ul li:last-child{
     color: #F58A07;
 }
 header{
-    background-color:#DCEAF5 ;  
-    height: 703px;      
-}
-.leftrighthead{
+    height: 703px;
     display: flex;
+    
 }
-.headertext{
-    width: 576px;
-    height: 439px;
-}
-.headertext h1{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 72px;
-    letter-spacing: -0.03em;
-    color: #1D3444;
-    padding-top: 118px;
-
-}
-.headerimage img{
+header div:first-child{
+    background-color:#DCEAF5;;
     flex: 1;
-    margin-top: 57px;
+    padding-left: 90px;
 }
-.headertext ul{
-    list-style: none;
-    display: flex;
-    margin-top:50px;
+
+header div:last-child{
+    background-color:#DCEAF5;;
+    flex: 1;
 }
-.firstlist{
-    width: 199px;
-    height: 54px;
-    background: #F58A07;
-    border-radius: 27px;
-    justify-content:center;
-    align-items: center;
-    display: flex;
-    color: white;
+
+header div:first-child div{
+width: 576px;
+height: 439px;
+background-color:#DCEAF5 ;
+margin-top: 117px;
+/* margin-left: 325px; */
+    
 }
-.secondlist{
-    margin-left: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.with100{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(57, 65, 73, 0.5);
-    margin-top:36px;
+header div:first-child div h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+color: #1D3444;
 
 }
-.logos{
-    width: 576px;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-
-}
-.headertextp{
+header div:first-child div p{
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    color: #5B5B5B;
-    margin-top: 10px;
+    margin-top: 12px;
+    color: #1D3444;
+   
+}
+header div:first-child div ul {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #1D3444;
+}
+header div:first-child div ul li{
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    color: #1D3444;
+}
+header div:first-child div ul li:first-child{
+    background: #F58A07;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+header div:first-child div ul li:last-child{
+    margin-left: 72px;
+}
+header div:first-child div .worked{
+    color: rgba(57, 65, 73, 0.5);
+}
+header div:first-child div img{
+    margin-top: 27px; ;
+}
+.baruun{
+    display:flex;
 }
 .helpsection{
-    max-width: 1280px;
-    margin: auto;
+    height: 740px;
  
-}
-.experience{
-    max-width: 1280px;
-    margin: auto;
 }
 .gol{
     height: 700px;
@@ -352,12 +352,7 @@ margin-top: 41px;
     border-radius: 20px;
     /* margin-left: 480px; */
     margin-top: 150px;
-    position: relative;
-}
-.ribbon{
-    position: absolute;
-    right: -15;
-    top: -15px;
+
 }
 .helpingclients ul{
     display:flex;
@@ -515,6 +510,7 @@ margin-top: 41px;
     width: 1280px;
     height: 501px;
     margin-top: 128px;
+    /* margin-left: 480px; */
     display:flex;
 }
 .videoleft{
@@ -562,7 +558,6 @@ margin-top: 41px;
     flex:1;
     background-size: cover;
     border-radius: 15px;
-    position:relative;
 }
 
 .playicon{
@@ -570,8 +565,8 @@ margin-top: 41px;
     background: white;
     border-radius: 50%;
     position: absolute;
-    top: 400px;
-    left: 40px;
+    left: 1150px;
+    top: 5160px;
     
     
 }
@@ -581,8 +576,8 @@ margin-top: 41px;
    
 .videoright p{
     position:absolute;
-    left: 100px;
-    top: 415px;
+    left: 1210px;
+    top: 5170px;
     color: white;
 }
 .latestsection{
@@ -640,127 +635,138 @@ margin-top: 41px;
 }
 
                            /* endees footer ehleneee  */
-                           footer{
-                            background-color:#063255 ;
-                        
-                        }
-                        .footer-top{
-                            height: 463px;
-                            margin:auto;
-                            display:flex;
-                        }
-                        .footer-left{
-                            padding-top: 80px;
-                            width: 351px;
-                            height: 199px;
-                        }
-                        
-                        .footer-left h1{
-                            color: white;
-                            margin-top: 32px;
-                            font-weight: 600;
-                            font-size: 36px;
-                            line-height: 44px;
-                        }
-                        .footer-left ul{
-                            list-style: none;
-                            display: flex;
-                            margin-top: 33px;
-                        }
-                        .footer-left ul li{
-                            padding: 5px;
-                        }
-                        .company{
-                            color: white;
-                            padding-top: 80px;
-                            margin-left: 341px;
-                        }
-                        .company p{
-                            font-weight: 600;
-                            font-size: 18px;
-                            line-height: 27px;
-                        }
-                        .company ul{
-                            list-style: none;
-                        }
-                        .company ul li{
-                            padding-top: 16px;
-                        }
-                        .connect{
-                            color: white;
-                            padding-top: 80px;
-                            margin-left: 106px;
-                        }
-                        .connect p{
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 18px;
-                            line-height: 27px;
-                        }
-                        .connect ul{
-                            list-style: none;
-                        
-                        }
-                        .connect ul li{
-                            padding-top: 16px;
-                        }
-                        .subscribe{
-                            margin-top: 78px;
-                            margin-left: 200px;
-                        }
-                        .subscribe h1{
-                            width: 141px;
-                            height: 27px;
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 18px;
-                            line-height: 27px;
-                            color: white;
-                        
-                        }
-                        input{
-                            width: 300px;
-                            height: 54px;
-                            border-radius: 31px;
-                            padding-left: 32px;
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 19px;
-                            color: #9C9C9C;
-                            margin-top: 24px;
-                        }
-                        button{
-                            width: 156px;
-                            height: 54px;
-                            border-radius: 31px;
-                            background-color: #F58A07;
-                            margin-top: 16px;
-                            color: white;
-                        }
-                        .footer-bottom{
-                            color:white;
-                            padding-bottom: 80px;
-                            display: flex;
-                            justify-content: space-between  ;
-                        }
-                        .smallorange{
-                            width: 53px;
-                            height: 144px;
-                            background-color: #F58A07;
-                            position: absolute;
-                            top: 6552px;
-                            left: 1px;
-                            border-top-right-radius: 20px;
-                        }
-                        .largeorange{
-                            width: 53px;
-                            height: 287px;
-                            position: absolute;
-                            right: 0;
-                            top: 6200px;
-                            background-color: #F58A07;
-                            border-top-left-radius: 20px;
-                            border-bottom-left-radius: 20px;
-                        }
-                        
+footer{
+    height: 463px;
+    background: #063255;
+}
+.footer-top{
+    display: flex;
+}
+.footerlogo{
+    padding-top: 80px;
+    padding-left: 480px;
+    color: white;
+}
+.footerlogo h1{
+    margin-top: 32px;
+    width: 351px;
+    height: 88px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.platformlogos{
+    margin-top: 33px;  
+}
+.plogo2{
+    margin-left: 20px;
+}
+.plogo3{
+    margin-left: 20px;
+}
+.companyref{
+    color: white;
+
+}
+.companyref ul{
+    list-style: none;
+    margin-left: 200px;
+    padding-top: 78px;
+
+}
+.companyref ul li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+}
+.companyref ul li:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.connectref{
+    padding-top: 78px;
+    margin-left: 110px;
+ 
+}
+.connectref ul{
+    list-style: none;
+    color: white;
+}
+.connectref ul li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+}
+.connectref ul li:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+.joinref{
+    color: white;
+    padding-top: 78px;
+    margin-left: 100px;
+}
+.joinref ul{
+    list-style: none;
+}
+.joinref ul li{
+    height: 40px;
+}
+.type-email{
+    width: 290px;
+    height: 54px;
+    border-radius:31px;
+    padding-left: 30px;
+
+}
+.joinref ul li:first-child{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.joinref ul li:last-child{
+    margin-top: 30px;
+    background: #F58A07;
+    border-radius: 31px;
+    width: 156px;
+    height: 54px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.footer-bottom{
+    color: white;
+    /* margin-left: 480px; */
+    margin-top: 100px;
+    display:flex;
+}
+.lasttext{
+    margin-left: 750px;
+    display:flex;
+}
+.lastesttext{
+    margin-left: 32px;
+}
+.smallorange{
+    width: 53px;
+    height: 144px;
+    background-color: orange;
+    position: absolute;
+    top: 6487px;
+    border-top-right-radius: 20px;
+}
+.largeorange{
+    width: 53px;
+    height: 287px;
+    position: absolute;
+    right: 0px;
+    top: 6210px;
+    background-color: #F58A07;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
