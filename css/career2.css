@@ -303,7 +303,7 @@ button{
     width: 53px;
     height: 287px;
     position: absolute;
-    left: 2061px;
+    right: 0;
     top: 2000px;
     background-color: #F58A07;
     border-top-left-radius: 20px;
